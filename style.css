@@ -1,0 +1,39 @@
+/* Navigation Bar */
+
+body {
+    margin: auto 0;
+}
+
+
+
+.main-nav {
+    display: flex;
+    padding: 20px;
+    background-color: red;
+    list-style: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.push {
+    margin-left: auto;
+}
+
+/* Cover */
+
+.main-cover > img {
+   width: 100%;
+   height: auto;
+}
+
+/* Grid */
+
+.container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
